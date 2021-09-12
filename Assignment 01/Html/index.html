@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<!----- Head Area ----->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>assignment-01</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="../CSS/slider.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=PT+Sans:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+</head>
+<!----- Body Area ----->
+
+<body>
+    <!----- Header Menu Area ----->
+    <header container>
+        <div class="logo">
+            <img src="../IMG/logo-2.jpg" width="40px" height="40px" alt="logo" />
+        </div>
+        <div class="mymenu">
+            <ul>
+                <li><a href="#"> Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </div>
+    </header>
+    <!----- Slider Area ----->
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="../IMG/Slider images/1.jpg" style="width: 100%" />
+            <div class="text">Sweet World</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="../IMG/Slider images/2.jpg" style="width: 100%" />
+            <div class="text">Beautiful Place</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="../IMG/Slider images/3.jpg" style="width: 100%" />
+            <div class="text">Home sweet Home</div>
+        </div>
+    </div>
+    <br>
+    <div style="text-align: center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+    <br>
+    <!----- Video Area ----->
+    <video controls width="100%" height="600" autoplay muted>
+        <source src="../videos/Video01.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>
+    <!----- Form Area ----->
+    <form>
+        <label for="test-text"> First Name </label><br>
+        <input type="text" id="test-text" name="test-text" placeholder="First Name" />
+        <br>
+        <label for="test-text2"> Second Name </label><br>
+        <input type="text" id="test-text2" name="test-text2" placeholder="Second Name" /><br>
+        <label for="email"> Email </label><br>
+        <input type="text" id="email" name="email" placeholder="Enter Your Email" /><br>
+        <label for="account"> User Id </label><br>
+        <input type="text" id="account" name="user-id" placeholder="User Id" /><br>
+        <label for="password"> Password </label><br>
+        <input type="password" id="password" name="password" placeholder="Enter Password" /><br><br><br>
+        <!----- Radio Area ----->
+        <p>Please select a country</p><br>
+        <input type="radio" id="radio1" name="radio1" value="pk" />
+        <label for="radio1"> Pakistan </label>
+        <br>
+        <input type="radio" id="radio2" name="radio2" value="bd" />
+        <label for="radio2"> Bangladesh </label>
+        <br>
+        <input type="radio" id="radio3" name="radio3" value="in" />
+        <label for="radio3"> India </label>
+        <br>
+        <br>
+        <!----- CheckBox Area ----->
+        <p>Please select a country</p><br>
+        <input type="checkbox" id="radio1" name="radio1" value="pk" />
+        <label for="radio1"> Pakistan </label>
+        <br>
+        <input type="checkbox" id="radio2" name="radio2" value="bd" />
+        <label for="radio2"> Bangladesh </label>
+        <br>
+        <input type="checkbox" id="radio3" name="radio3" value="in" />
+        <label for="radio3"> India </label>
+        <br>
+        <br>
+        <!----- Select Box ----->
+        <p>Select Your Country</p>
+        <br>
+        <select name="select01" id="select01">
+            <option value="pk">Pakistan</option>
+            <option value="bd">Bangladesh</option>
+            <option value="in">India</option>
+            <option value="nl">Nepal</option>
+        </select><br><br>
+        <input type="submit" value="Submit">
+        <div class="clear"></div>
+        <br>
+        <hr>
+        <br>
+    </form>
+
+    <br>
+
+    <br>
+    <script src="../JS/scripts.js "></script>
+</body>
+
+</html>
